@@ -1,0 +1,12 @@
+/Users/lucasfogaca/lpc/fin.ui/obj/Debug/netcoreapp2.0/fin.ui.csproj.CoreCompileInputs.cache
+/Users/lucasfogaca/lpc/fin.ui/obj/Debug/netcoreapp2.0/fin.ui.AssemblyInfoInputs.cache
+/Users/lucasfogaca/lpc/fin.ui/obj/Debug/netcoreapp2.0/fin.ui.AssemblyInfo.cs
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/fin.ui.deps.json
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/fin.ui.runtimeconfig.json
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/fin.ui.runtimeconfig.dev.json
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/fin.ui.dll
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/fin.ui.pdb
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/finlab.dll
+/Users/lucasfogaca/lpc/fin.ui/bin/Debug/netcoreapp2.0/finlab.pdb
+/Users/lucasfogaca/lpc/fin.ui/obj/Debug/netcoreapp2.0/fin.ui.dll
+/Users/lucasfogaca/lpc/fin.ui/obj/Debug/netcoreapp2.0/fin.ui.pdb

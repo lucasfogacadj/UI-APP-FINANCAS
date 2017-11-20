@@ -1,0 +1,39 @@
+@model Finlab.Dominio.members
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+<form action="/members/Create" method="post">
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label>Id</label>
+            <input class="form-control" type="text" name="id" />
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input class="form-control" type="text" name="name" />
+        </div>
+
+        <div class="form-group">
+            <label>Cidade</label>
+            <select class="form-control" name="City.id">
+                    <option value="value">Select a Cidade</option>
+
+                    @foreach (Financas.Domain.City item in ViewBag.City)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+        </div>
+        
+
+        <div class="form-group">
+            <input type="submit" name="btnSave" value="Salvar"
+                   class="btn btn-primary" />
+        </div>
+    </div>
+</form>

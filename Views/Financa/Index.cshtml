@@ -1,0 +1,36 @@
+@model IEnumerable<finlab.Dominio.Despesas>
+
+
+
+<td><a class="btn btn-warning" href="Financa/Create">Novo Gasto</a></td>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Data</th>
+                <th>Numero do Documento</th>
+                <th>Grupo</th>
+                <th>Local</th>
+                <th>Valor</th>
+                <th></th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.data</td>
+                <td>@item.numDoc</td>
+                <td>@item.grupo</td>
+                <td>@item.local</td>
+                <td>@item.valor</td>
+                <td><a class="btn btn-danger" href="Financa/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="Financa/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>
